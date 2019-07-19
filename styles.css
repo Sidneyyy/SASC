@@ -1,0 +1,499 @@
+/* Self Care */
+
+.title{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: 20px;
+background-color:#FCF8F5;
+opacity: 0.6;
+}
+
+.selfcare{
+font-family: 'Major Mono Display', monospace;
+font-size: 30px;
+}
+
+
+.selfCarePg{
+ background-image: url("http://s8.favim.com/orig/150512/aesthetic-bed-bed-sheets-pale-Favim.com-2726478.jpg");
+ margin: 20px;
+ border: 25px solid #BBB3FC;
+
+}
+
+.title1{
+border: 1px solid white;
+}
+
+.selfcare{
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  -webkit-animation: fadein 2s;
+  }
+  @keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+   from {
+       opacity:0;
+   }
+   to {
+       opacity:1;
+   }
+  }
+
+.font{
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 50px;
+}
+
+
+.selfcare2{
+   margin-top: 25px;
+   font-size: 21px;
+   text-align: center;
+   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+       -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+           animation: fadein 2s;
+}
+@keyframes fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+
+
+.selfcareinfo1{
+   margin-top: 25px;
+   font-size: 21px;
+   text-align: center;
+   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+       -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+           animation: fadein 2s;
+}
+@keyframes fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+
+
+.selfcareinfo2{
+   margin-top: 25px;
+   font-size: 21px;
+   text-align: center;
+   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+       -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+           animation: fadein 2s;
+}
+@keyframes fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+
+.pz{
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: 20px;
+
+}
+
+.selfcarerule{
+  padding:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.SASC-selfcare{
+font-size:
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  -webkit-animation: fadein 2s;
+  }
+  @keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+   from {
+       opacity:0;
+   }
+   to {
+       opacity:1;
+   }
+  }
+
+}
+
+
+.testp {
+   margin-top: 25px;
+   font-size: 21px;
+   text-align: center;
+   -webkit-animation: fadein 2s;
+ }
+@keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+  }
+
+  nav {
+    float: right;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+  }
+
+  nav a {
+    color: purple;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: purple;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    width: 100%;
+  }
+
+.quotegentitle{
+  display:flex;
+    flex-direction: column;
+    background-color: #FCF8F5;
+    opacity: 0.6;
+    font-size: 30px;
+  }
+
+  .randomQuote{
+    width:500px;
+    height:auto;
+
+  }
+
+  .center1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.spirit {
+  color:#9DCCBD;
+  font-family: 'Cutive Mono', monospace;
+  padding-left: 250px;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.spirit:hover {
+  opacity:1;
+}
+
+.push {
+  color:#9DCCBD;
+  font-family: 'Cutive Mono', monospace;
+  padding-left: 270px;
+  font-size: 15px;
+  opacity:0;
+}
+
+.push:hover {
+  opacity:1;
+}
+
+.bye {
+  color:#9DCCBD;
+  font-family: 'Cutive Mono', monospace;
+  padding-left: 600px;
+  font-size: 30px;
+  opacity: 0;
+}
+
+.bye:hover {
+  opacity:1;
+}
+
+
+
+/* //selfImage */
+/* ///////////////////// */
+
+.background {
+  background-color:#E5F2FE;
+height: 100%;
+}
+
+
+.heading{
+display:flex;
+justify-content: flex-end;
+margin-right: 250px;
+color: blue;
+font-family: 'Major Mono Display', monospace;
+  font-size: 30px;
+
+}
+
+.selfimage{
+  width: 250px;
+  height: 250px;
+  border: 2px solid grey;
+  border-radius: 5%;
+  margin-bottom: 20px;
+
+
+}
+
+.selftext {
+  margin: 50px;
+
+}
+
+.self{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+
+
+
+}
+
+.selfimage2{
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.clothesimage {
+  width: 300px;
+  height: 250px;
+border: 3px solid grey;
+border-radius: 3%;
+margin: 20px;
+}
+
+.clothestext{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 19px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.nav {
+display:flex;
+ content: '';
+ display: block;
+ height: 5px;
+  font-size: 50px
+
+
+
+}
+
+a {
+text-decoration: none;
+   display: inline-block;
+   padding: 8px 16px;
+   font-size: 50px;
+
+}
+
+a:hover{
+background-color: white;
+background-color: #ddd;
+   color: black;
+}
+
+.button1{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+margin-left: 30px;
+}
+
+.randomImage{
+  width:500px;
+  height: auto;
+
+}
+
+.sI {
+  color:#9DCCBD;
+  font-family: 'Cutive Mono', monospace;
+  padding-left: 650px;
+  font-size: 25px;
+  opacity: 0;
+}
+
+.sI:hover {
+  opacity: 1;
+}
+
+.bcs {
+  color:#9DCCBD;
+  font-family: 'Cutive Mono', monospace;
+  padding-left: 50px;
+  font-size: 25px;
+  opacity: 0;
+}
+
+.bcs:hover {
+  opacity:1;
+}
+
+.comma {
+  color:#9DCCBD;
+  font-family: 'Cutive Mono', monospace;
+  padding-left: 150px;
+  font-size: 25px;
+  opacity: 0;
+}
+
+.comma:hover {
+  opacity:1;
+}
+
+/* HOME SASC */
+
+.home_body {
+  margin: 20px;
+  border: 30px solid #BBB3FC;
+}
+
+
+.home_SASC {
+  font-size: 50px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.lettertext {
+  display: inline-block;
+  width: 100px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.para1 {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.vibes {
+  width: 200px;
+  height: auto;
+}
+
+.word {
+  font-size: 30px;
+}
+
+.letter {
+  margin-bottom: -45px;
+}
+
+.aware1 {
+  opacity: 0;
+}
+
+.sa:hover {
+}
+
+.aware1:hover{
+  opacity: 1;
+  color: #9DCCBD;
+  font-family: 'Cutive Mono', monospace;
+
+}
+
+
+.sa {
+  display: inline;
+}
+
+.p1 {
+  padding-right: 50px;
+  font-size: 18px;
+
+}
+
+.para2 {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.SC {
+  width: 200px;
+  height: auto;
+}
+
+.p2 {
+  padding-left: 50px;
+  font-size: 18px;
+}
